@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let userFirstName = "Alice";
+let userLastName = "Bilks";
+let userName = userFirstName + userLastName;
+let itemsBought = 5;
+let dollarAmount = 20;
+let greeting = "Hello," + userName;
+let finalOutput = userFirstName + "bought" + itemsBought + "items for $" + dollarAmount + ".";
 
-console.log(d);
+console.log(greeting);
+console.log(finalOutput);
